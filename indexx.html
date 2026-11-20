@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Student Course Registration</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #172554;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+        }
+
+        .course {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #aaa;
+        }
+
+        .course h3 {
+            color: #1d4ed8;
+        }
+
+        button {
+            background-color: #172554;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2563eb;
+        }
+
+        #registeredCourses {
+            background: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SR UNIVERSITY</h1>
+    <h2 style="color:white;">
+        Online Student Course Registration System
+    </h2>
+    <p>Explore and Register for Your Favourite Courses</p>
+</header>
+
+<div class="container">
+
+    <h2>Available Courses</h2>
+
+    <div class="course">
+        <h3>1. Artificial Intelligence</h3>
+        <p>Learn artificial intelligence concepts and intelligent systems.</p>
+        <p><b>Duration:</b> 6 Months</p>
+        <button onclick="registerCourse('Artificial Intelligence')">
+            Register
+        </button>
+    </div>
+
+    <div class="course">
+        <h3>2. Machine Learning</h3>
+        <p>Learn machine learning algorithms and real-world applications.</p>
+        <p><b>Duration:</b> 6 Months
